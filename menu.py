@@ -1,6 +1,6 @@
 from operaciones import Operaciones
 
-def main ():
+class main ():
     opcion = 0
     while True:
         print("""
@@ -12,8 +12,7 @@ def main ():
         4) DIVIDIR
         5) RAIZ
         6) EXPONENTE
-        7) SENO
-        8) SALIR
+        7) SALIR
         """)
         opcion = int(input("Elige una opción: ") )     
     
@@ -39,7 +38,7 @@ def main ():
             Operaciones.exponente()
 
         
-        elif opcion == 8:
+        elif opcion == 7:
             print("Hasta pronto")
             break
         else:
