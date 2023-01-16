@@ -31,6 +31,13 @@ def main ():
         
         elif opcion == 4:
             Operaciones.division()
+
+        elif opcion == 5:
+            Operaciones.raiz()
+
+        elif opcion == 6:
+            Operaciones.exponente()
+
         
         elif opcion == 8:
             print("Hasta pronto")
