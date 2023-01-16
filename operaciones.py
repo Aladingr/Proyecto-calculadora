@@ -34,6 +34,4 @@ class Operaciones:
     
     def raiz():
         a = float(input("Ingresa un numero: "))
-
-     
-
+        print(a)
