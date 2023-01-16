@@ -34,7 +34,6 @@ class Operaciones:
     
     def raiz():
         a = float(input("Ingresa un numero: "))
-        #print= ("ingresa un 2 numero: ")
-        b = float(input("Ingresa el numero de raiz que deseas obtener: "))
-        resultado = a*b
-        print("El Resultado es: ",resultado)
+
+     
+
